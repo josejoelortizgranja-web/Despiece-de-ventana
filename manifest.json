@@ -1,7 +1,7 @@
 {
-  "name": "Despiece de Ventanas",
-  "short_name": "Despiece Ventanas",
-  "description": "Calculadora profesional de despieces, costos, planos y cotizaciones de ventanas de aluminio (perfiles 744, 8025, 5020, 7038).",
+  "name": "Cotizador y Despiece de Ventanas",
+  "short_name": "Ventanas Calc",
+  "description": "Calculadora profesional de despieces, costos, planos y cotizaciones de ventanas de aluminio (perfiles 744, 8025, 5020, 7038 y personalizados).",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -13,28 +13,30 @@
   "categories": ["business", "productivity", "utilities"],
   "icons": [
     {
-      "src": "icons-pro/icon-letters-192.png",
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons-pro/icon-letters-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "icons-pro/icon-letters-maskable-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons-pro/icon-letters-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
-  ]
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
 }
