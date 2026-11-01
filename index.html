@@ -1625,4 +1625,10 @@ if(localStorage.getItem('fabHiddenV1')==='1'){
   if(fab)fab.classList.add('hidden');
   if(tog)tog.classList.add('show');
 }
-</script></body></html>
+</script><script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/pwabuilder-sw.js')
+      .then(() => console.log('Service Worker registrado con éxito'));
+  }
+</script>
+</body></html>
